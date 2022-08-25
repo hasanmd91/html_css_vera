@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #a0aecd;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.container {
+  background-color: #a0aecd;
+  position: relative;
+}
+
+.navbar {
+  padding: 20px;
+  background: #8899bc;
+  color: rgba(23, 22, 22, 0.723);
+  min-width: 100vw;
+  position: fixed;
+}
+
+.navbar_menu {
+  display: flex;
+  font-size: 18px;
+  justify-content: right;
+  gap: 2rem;
+  margin-right: 5rem;
+}
