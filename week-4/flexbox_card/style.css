@@ -1,9 +1,12 @@
-body {
-}
 * {
   font-family: sans-serif;
   font-size: x-large;
 }
+
+body {
+  background-color: rgb(194, 200, 115);
+}
+
 section {
   min-height: 25vh;
 }
@@ -27,7 +30,7 @@ section {
 }
 
 .card {
-  background-color: aliceblue;
+  background-color: rgb(220, 147, 11);
   margin: 20px;
   border-radius: 5px;
   width: 33%;
@@ -44,4 +47,11 @@ section {
 .card a {
   padding: 0, 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    background-color: rgb(17, 88, 151);
+    color: aqua;
+  }
 }

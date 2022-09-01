@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Montserrat&family=Satisfy&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(50, 57, 57);
+  color: white;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(57, 82, 57);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-content: flex-start;
+  height: 100vh;
+  background-color: rgb(139, 172, 145);
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: chocolate;
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 5px;
+  border: 1px solid;
+}
