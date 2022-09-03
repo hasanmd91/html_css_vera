@@ -1,0 +1,31 @@
+section {
+  min-width: 100vw;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 500px;
+  height: 500px;
+  background-color: #61892f;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactSection {
+  padding: 5px;
+  border-radius: 2px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+}
