@@ -45,3 +45,11 @@ section {
   right: 200px;
   bottom: 0;
 }
+
+#section-d {
+  height: 2000px;
+}
+#section-d .item {
+  position: sticky;
+  top: 100px;
+}
