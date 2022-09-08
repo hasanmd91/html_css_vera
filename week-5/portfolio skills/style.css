@@ -34,6 +34,9 @@ h2 {
   justify-content: space-around;
   text-align: center;
 }
+.skill:nth-child(odd) {
+  background-color: rgb(288, 288, 900);
+}
 
 progress[value] {
   height: 1.5rem;
