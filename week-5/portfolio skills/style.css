@@ -1,0 +1,53 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #333;
+}
+
+h2 {
+  margin: 2rem 0;
+}
+#skills {
+  min-height: 500px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skill {
+  background-color: rgb(247, 247, 247);
+  padding: 2rem;
+  border: 1px solid grey;
+}
+
+.skills_group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: space-around;
+  text-align: center;
+}
+
+progress[value] {
+  height: 1.5rem;
+  background: transparent;
+  -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border: radius 5px;
+}
+
+progress[value]::-webkit-progress-value {
+  background: coral;
+  border-radius: 5px;
+  background-size: 35px 20px;
+}
