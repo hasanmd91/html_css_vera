@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+section {
+  background-color: aliceblue;
+  height: 400px;
+  width: 100vw;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.item {
+  height: 200px;
+  width: 200px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+#section-a .item:nth-child(2) {
+  position: relative;
+}
+#section-a .item:nth-child(3) {
+  position: relative;
+  background-color: rgb(215, 101, 31);
+  top: -100px;
+  left: 100px;
+}
+
+#section-b .item {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#section-c .item {
+  position: absolute;
+  right: 200px;
+  bottom: 0;
+}
