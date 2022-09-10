@@ -56,3 +56,13 @@ section {
   position: sticky;
   top: 100px;
 }
+
+.material-icons {
+  color: #333;
+  margin: 1rem;
+}
+
+.material-icons:hover {
+  color: orange;
+  font-size: xx-large;
+}
