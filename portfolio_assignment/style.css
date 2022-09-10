@@ -23,6 +23,7 @@ html {
 }
 section {
   min-width: 100vw;
+  background-color: #1d1e1f;
 }
 a {
   text-decoration: none;
